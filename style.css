@@ -34,6 +34,10 @@ body, html, #home{
     background-color: white;
 }
 
+.navbar-item{
+    color: #fff;
+}
+
 nav.navbar-transparente{
    padding: 15px 0;
    background: rgb(0,0,0,6);
