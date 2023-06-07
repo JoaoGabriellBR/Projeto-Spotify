@@ -4,37 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
     <title>Música para todos | Spotify</title>
 
-     <!-- Meta tags Obrigatórias -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-     <!-- Bootstrap CSS -->
+     
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
  
-     <!------Fonte awesome------------>
-     <link rel="stylesheet" href="all.css">
-     <link rel="stylesheet" href="all.min.css">
-     <link rel="stylesheet" href="brands.css">
-     <link rel="stylesheet" href="solid.css">
-     <link rel="stylesheet" href="regular.css">
+     <link rel="stylesheet" href="./src/styles/all.css">
+     <link rel="stylesheet" href="./src/styles/all.min.css">
+     <link rel="stylesheet" href="./src/styles/brands.css">
+     <link rel="stylesheet" href="./src/styles/solid.css">
+     <link rel="stylesheet" href="./src/styles/regular.css">
 
-     <!------Favicon------------>
-     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+     <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
 </head>
 
-<body><!----------INICIO DO SITE-----------INICIO DO SITE------------------------>
+<body>
  
-    
-<header>                    <!----------------INICIO DO CABEÇALHO-------------->
-
-        <nav class="fixed-top">
+<header>                   
+    <nav class="fixed-top">
             <div class="container">
                 <div class="mt-4 row pb-3">
                     <div class="col-md-4 d-flex divnavimg">
-                        <a class="navbar-brand" href="#"><img class="navimg" width="120" src="spotify.svg" alt="Logo Spotify"></a>
+                        <a class="navbar-brand" href="#"><img class="navimg" width="120" src="./src/assets/spotify.svg" alt="Logo Spotify"></a>
                     </div>
                    
                     <div id="#menu" class="col-md-8 d-flex justify-content-end">
@@ -46,13 +40,9 @@
                 </div>
             </div>
         </nav>
+</header>
 
-
-</header><!----------------FIM DO CABEÇALHO-------------->
-
-
-<section id="home" class="d-flex"><!-------------INÍCIO DA SEÇÃO MÚSICA PARA TODOS------------------>
-
+<section id="home" class="d-flex">
     <div class="container align-self-center">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -61,41 +51,38 @@
 
                         <div class="carousel-item active">
                             <h1 class="musica-para-todos">Música para todos</h1>
-                            <button class="btn btn-custom botao-aproveite-spotify" type="button">aproveite o spotify free</button>
-                            <button class="btn btn-custom botao-spotify-premium" type="button">obter spotify premium</button>
+                            <button class="btn btn-custom botao-aproveite-spotify p-2" type="button">aproveite o spotify free</button>
+                            <button class="btn btn-custom botao-spotify-premium p-2" type="button">obter spotify premium</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
-</section><!-------------FIM DA SEÇÃO MÚSICA PARA TODOS------------------>
-
-
-<section class="o-que-spotify-tem"><!-----INICIO O QUE O SPOTIFY TEM?---------->
-
+<section class="o-que-spotify-tem">
     <div class="container">
         <div class="row">     
             <div class="col-md-6">
                <div class="row mb-4">
                     <div class="col-md-6">
-                        <img class="img-fluid d-none d-md-block" src="img1.jpg" alt="" >
+                        <img class="img-fluid d-none d-md-block" src="./src/assets/img1.jpg" alt="" >
                     </div>
 
                     <div class="col-md-6">
-                        <img class="img-fluid d-none d-md-block" src="img2.jpg" alt="" >
+                        <img class="img-fluid d-none d-md-block" src="./src/assets/img2.jpg" alt="" >
                     </div>
                </div>
 
                 
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-fluid d-none d-md-block" src="img3.jpg" alt="">
+                        <img class="img-fluid d-none d-md-block" src="./src/assets/img3.jpg" alt="">
                     </div>
     
                     <div class="col-md-6">
-                        <img class="img-fluid d-none d-md-block" src="img4.jpg" alt="">
+                        <img class="img-fluid d-none d-md-block" src="./src/assets/img4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -112,12 +99,9 @@
             </div>
         </div>
     </div>
+</section>
 
-</section><!-----FINAL O QUE O SPOTIFY TEM?---------->
-
-
-<section id="facil"><!-----INÍCIO DA SEÇÃO FÁCIL---------->
-
+<section id="facil">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -134,11 +118,11 @@
                     <div class="row rotacionar">
 
                         <div class="col-md-6">
-                            <img class="img-fluid d-none d-md-block" src="iphone1.png" alt="" >
+                            <img class="img-fluid d-none d-md-block" src="./src/assets/iphone1.png" alt="" >
                         </div>
 
                         <div class="col-md-6">
-                            <img class="img-fluid d-none d-md-block" src="iphone2.png" alt="" >
+                            <img class="img-fluid d-none d-md-block" src="./src/assets/iphone2.png" alt="" >
                         </div>
                     </div>
                 </div>
@@ -146,17 +130,14 @@
             </div>
         </div>
     </div>
+</section>
 
-</section><!-----FIM DA SEÇÃO FÁCIL---------->
-
-
-
-<footer><!-----INÍCIO DO RODAPÉ---------->
+<footer>
     <div class="container">
         <div class="row">
             <div class="col-md-2">
                 <a href="#">
-                    <img src="spotify.svg" alt="logo do spotify" width="110">
+                    <img src="./src/assets/spotify.svg" alt="logo do spotify" width="110">
                 </a>
             </div>
 
@@ -193,20 +174,20 @@
                 <ul>
                     <li>
                         <a href="">
-                            <img class="d-none d-md-block" src="facebook.png" alt="">
+                            <img class="d-none d-md-block" src="./src/assets/facebook.png" alt="">
                         </a>
                     </li>
 
                     <li>
                         <a href="">
-                            <img class="d-none d-md-block" src="instagram.png" alt="">
+                            <img class="d-none d-md-block mr-3" src="./src/assets/instagram.png" alt="">
                         </a>
                     </li>
 
 
                     <li>
                         <a href="">
-                            <img class="d-none d-md-block" src="twitter.png" alt="">
+                            <img class="d-none d-md-block mr-3" src="./src/assets/twitter.png" alt="">
                         </a>
                     </li>
                 </ul>
@@ -219,18 +200,11 @@
             </div>
         </div>
     </div>
-</footer><!-----FIM DO RODAPÉ---------->
+</footer>
 
-
-
-<!----------FIM DO SITE-----------FIM DO SITE------------------------>
-
-    <!-- JavaScript -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
